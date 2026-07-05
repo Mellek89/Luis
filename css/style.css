@@ -74,7 +74,7 @@ padding: 0;
 
 
  .logo{
-    width: 300px;
+    width: 100px;
  }
  .menuContainer{
     display: flex;
@@ -707,29 +707,9 @@ text-decoration: none;
    .hamb, .side-menu {
  display: none;
  } 
-   .svgLogoIntro{  
-    width: 500px}
-
-.webit{
-position: absolute;
-    left: 99px;
-    top: 157px;
-    width:500px;
-
-}
-
-.it{
-    position:absolute;
-    left: 280px;
-    top: 50px;
-    font-size: 60px;
-}
-.with{
- 
-    left: 200px;   /* horizontal verschieben */
-    top: -50px;     /* vertikal verschieben */
-
-}
+   .logo{
+    width: 300px;
+ }
  .nav {
     display: flex;
     position: static;
