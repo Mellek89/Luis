@@ -146,6 +146,7 @@ h3{
     padding: 1em;
     display: flex;
     flex-direction: row;
+    gap: 3em;
 }
 
    
@@ -302,7 +303,7 @@ h3{
 .redStones,
 .LuisWithStones,
 .HouseInside{
-  max-width: 400px;
+  max-width: 100px;
   height: auto;
 }
 .intro{
