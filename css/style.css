@@ -141,11 +141,11 @@ h3{
     }
 
     .sectionIndex{
-     grid-row:2;
-    max-width: 1200px;
+    grid-row:2;
     padding: 1em;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 3em;
 }
 
@@ -301,10 +301,12 @@ h3{
 }
 
 .redStones,
-.LuisWithStones,
-.HouseInside{
+.LuisWithStones{
   max-width: 100px;
   height: auto;
+}
+.HouseInside{
+  width: 300px;
 }
 .intro{
     margin-bottom:40px;
@@ -760,13 +762,19 @@ text-decoration: none;
     }
 
     .sectionIndex{
-     grid-row:2;
-    max-width: 1200px;
+   
+    width: 100%;
     padding: 1em;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 3em;
 }
+.redStones,
+.LuisWithStones{
+max-width: 200px;
+}
+
   /*about*/
     .timeline-item{
         display: grid;
