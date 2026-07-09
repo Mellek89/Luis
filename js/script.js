@@ -29,3 +29,35 @@ document.querySelectorAll('.lang').forEach(el => {
      // window.location.href = `/${lang}/${file}`;
   });
 });
+
+const images = [
+    "../Images/HouseInside.jpg",
+    "../Images/livingRoom.jpg",
+    "../Images/windowFrame.jpg",
+    "../Images/window.jpg"
+    
+];
+
+let index = 0;
+
+function update(){
+
+    const left = (index - 1 + images.length) % images.length;
+    const right = (index + 1) % images.length;
+
+    document.getElementById("left").src = images[left];
+    document.getElementById("center").src = images[index];
+    document.getElementById("right").src = images[right];
+}
+
+document.querySelector(".next").onclick = () =>{
+    index = (index + 1) % images.length;
+    update();
+};
+
+document.querySelector(".prev").onclick = () =>{
+    index = (index - 1 + images.length) % images.length;
+    update();
+};
+
+update();

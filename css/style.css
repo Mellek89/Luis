@@ -148,6 +148,36 @@ h3{
     align-items: center;
     gap: 3em;
 }
+.voila{
+  width: 350px;
+}
+
+
+.slideshow{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:2rem;
+}
+
+.carousel{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:1rem;
+}
+
+.carousel img{
+    transition:all .4s ease;
+    border-radius:12px;
+}
+ .side {
+        display: none;
+    }
+
+    .active {
+        width: min(90vw, 300px);
+    }
 
    
 
@@ -763,17 +793,34 @@ text-decoration: none;
 
     .sectionIndex{
    
-    width: 100%;
     padding: 1em;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     gap: 3em;
 }
+
+.voila{
+  width: 800px;
+}
+
+.side{
+       width: clamp(70px, 20vw, 180px);
+    opacity:.45;
+    transform:scale(.8);
+}
+
+.active{
+     width: clamp(100px, 50vw, 400px);
+    opacity:1;
+    transform:scale(1);
+}
+
 .redStones,
 .LuisWithStones{
 max-width: 200px;
 }
+
 
   /*about*/
     .timeline-item{
