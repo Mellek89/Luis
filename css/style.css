@@ -420,7 +420,7 @@ h3{
   position:absolute;
   width:18%;
 }
-.Asado,
+
 .redStones{
   width: 11%;
 }
@@ -433,13 +433,15 @@ h3{
 
 /* Links unten */
 .redStones{
+  
     left:20%;
     top:47%;
 }
 
 /* Rechts unten */
 .Asado{
-      right:20%;
+   width: 17%;
+      right:16%;
     top:48%;
 }
 
