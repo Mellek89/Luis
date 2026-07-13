@@ -140,14 +140,7 @@ h3{
       color: #4A6FA5;
     }
 
-    .sectionIndex{
-    grid-row:2;
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3em;
-}
+  
 .voila{
   width: 300px;
 }
@@ -331,14 +324,6 @@ h3{
     color: #666;
 }
 
-.redStones,
-.LuisWithStones{
-  max-width: 100px;
-  height: auto;
-}
-.HouseInside{
-  width: 300px;
-}
 .intro{
     margin-bottom:40px;
     line-height:1.7;
@@ -410,49 +395,63 @@ h3{
   display: flex;
   gap:0.1em;
 }
-.svgSAP{
-  width: 2em;
-}
+
 
 /*references*/
-.mockups{
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-   align-items: center;
-   padding: 0.5em;
+
+ .sectionIndex{
+    position:relative;
+    width:100%;
+    max-width:900px;
+    margin:auto;
+    aspect-ratio:1000/700;
+    }
+
+    
+.redStones,
+.LuisWithStones,
+.Asado{
+    position:absolute;
+    filter:
+      drop-shadow(0 4px 8px rgba(0,0,0,.08))
+      drop-shadow(0 12px 24px rgba(0,0,0,.12));
 }
-.mockups img{
-width: 300px;
-align-items: center;
+.LuisWithStones{
+  position:absolute;
+  width:18%;
+}
+.Asado,
+.redStones{
+  width: 10%;
 }
 
-.mockups a{
-text-decoration:underline;
-  color:inherit;
-    text-underline-offset: 5px;
+/* Spitze */
+.LuisWithStones{
+     top:3%;
+    left:40%;
 }
-.mockups .subline{
-  text-transform: uppercase;
-  letter-spacing: 0.6em;
-  text-align: center;
 
+/* Links unten */
+.redStones{
+    left:20%;
+    top:50%;
 }
-.mockups .industry{
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
-  text-align: center;
-  color: #666;
+
+/* Rechts unten */
+.Asado{
+      right:20%;
+    top:48%;
 }
-.mockups .description{
-   font-size: 12px;  
-    text-align: center;
-    color: #4A6FA5;
+
+.HouseInside{
+    grid-column:1 / 4;
+    grid-row:3;
+    width:300px;
+    justify-self:center;
 }
-.mockups .inProcess{
-  font-size: 12px;  
-  color: rgba(255, 0, 0, 0.716);
+.voila{
+   width:100%;
+    height:100%;
 }
 
 /*proposal*/
@@ -792,18 +791,8 @@ text-decoration: none;
       color:#666;
     }
 
-    .sectionIndex{
-   
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 3em;
-}
 
-.voila{
-  width: 800px;
-}
+
 
 .side{
        width: clamp(70px, 20vw, 180px);
@@ -817,10 +806,6 @@ text-decoration: none;
     transform:scale(1);
 }
 
-.redStones,
-.LuisWithStones{
-max-width: 200px;
-}
 
 
   /*about*/
