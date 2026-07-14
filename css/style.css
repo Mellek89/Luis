@@ -83,7 +83,7 @@ body {
 /*index.html*/
 
 
-.logo_svg {
+.logo {
   width: 100px;
 }
 
@@ -793,7 +793,7 @@ body:has(.side-menu:checked) {
     display: none;
   }
 
-  .logo_svg {
+  .logo {
     width: 200px;
   }
 
