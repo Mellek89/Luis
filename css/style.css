@@ -480,10 +480,9 @@ body:has(.side-menu:checked) {
 }
 
 .HouseInside {
-  grid-column: 1 / 4;
-  grid-row: 3;
+
   width: 300px;
-  justify-self: center;
+
 }
 
 .voila {
@@ -853,6 +852,39 @@ body:has(.side-menu:checked) {
   }
 
 
+  
+.LuisWithStones {
+  position: absolute;
+  width: 20%;
+}
+
+.redStones {
+  width: 13%;
+}
+
+/* Spitze */
+.LuisWithStones {
+  top: 3%;
+  left: 45%;
+}
+
+/* Links unten */
+.redStones {
+  left: 20%;
+  top: 47%;
+}
+
+/* Rechts unten */
+.Asado {
+  width: 19%;
+  right: 16%;
+  top: 48%;
+}
+.HouseInside {
+
+  width: 400px;
+
+}
 
 
   .side {
