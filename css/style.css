@@ -441,6 +441,7 @@ body:has(.side-menu:checked) {
   max-width: 900px;
   margin: auto;
   aspect-ratio: 1000/700;
+  margin-bottom: 3rem;
 }
 
 
