@@ -137,6 +137,7 @@ h1 {
   text-align: center;
   letter-spacing: 4px;
   line-height: 1.8;
+  margin-bottom: 3rem;
 }
 
 .hero .audience {
@@ -474,9 +475,9 @@ body:has(.side-menu:checked) {
 
 /* Rechts unten */
 .Asado {
-  width: 17%;
-  right: 16%;
-  top: 48%;
+  width: 20%;
+  right: 4%;
+  top: 44%;
 }
 
 .HouseInside {
@@ -859,7 +860,7 @@ body:has(.side-menu:checked) {
 }
 
 .redStones {
-  width: 13%;
+  width: 15%;
 }
 
 /* Spitze */
@@ -876,9 +877,9 @@ body:has(.side-menu:checked) {
 
 /* Rechts unten */
 .Asado {
-  width: 19%;
-  right: 16%;
-  top: 48%;
+  width: 25%;
+  right: 0%;
+  top: 40%;
 }
 .HouseInside {
 
