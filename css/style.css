@@ -157,7 +157,7 @@ h1 {
 
 
 .voila {
-  width: 300px;
+  width: 100%;
 }
 
 
@@ -485,11 +485,6 @@ body:has(.side-menu:checked) {
 
   width: 300px;
 
-}
-
-.voila {
-  width: 80%;
-  height: 100%;
 }
 
 /*proposal*/
@@ -823,8 +818,6 @@ body:has(.side-menu:checked) {
   }
 
 
-
-
   .hamb,
   .lang-picker {
     position: absolute;
@@ -854,7 +847,10 @@ body:has(.side-menu:checked) {
   }
 
 
-  
+ .voila {
+  width: 80%;
+  height: 100%;
+} 
 .LuisWithStones {
   position: absolute;
   width: 16%;
