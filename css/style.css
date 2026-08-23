@@ -488,7 +488,7 @@ body:has(.side-menu:checked) {
 }
 
 .voila {
-  width: 100%;
+  width: 80%;
   height: 100%;
 }
 
@@ -857,11 +857,11 @@ body:has(.side-menu:checked) {
   
 .LuisWithStones {
   position: absolute;
-  width: 20%;
+  width: 16%;
 }
 
 .redStones {
-  width: 15%;
+  width: 11%;
 }
 
 /* Spitze */
@@ -872,15 +872,15 @@ body:has(.side-menu:checked) {
 
 /* Links unten */
 .redStones {
-  left: 20%;
+  left: 30%;
   top: 47%;
 }
 
 /* Rechts unten */
 .Asado {
-  width: 25%;
-  right: 0%;
-  top: 40%;
+  width: 20%;
+  right: 10%;
+  top: 42%;
 }
 .HouseInside {
 
