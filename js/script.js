@@ -25,8 +25,8 @@ document.querySelectorAll('.lang').forEach(el => {
 
     
     console.log("lang");
-   window.location.href = `/Luis/${lang}/${file}`; 
-     // window.location.href = `/${lang}/${file}`;
+   //window.location.href = `/Luis/${lang}/${file}`; 
+      window.location.href = `/${lang}/${file}`;
   });
 });
 

@@ -902,7 +902,7 @@ body:has(.side-menu:checked) {
   /*about*/
   .timeline-item {
     display: grid;
-    grid-template-columns: 130px 1fr;
+    grid-template-columns:1fr;
     gap: 2rem;
   }
 
@@ -916,6 +916,14 @@ body:has(.side-menu:checked) {
     display: flex;
     flex-direction: column;
     gap: .5rem;
+  
+  }
+  .content h3{
+      text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  .content p{
+    font-size: 1em;
   }
 
   /*contakt*/
