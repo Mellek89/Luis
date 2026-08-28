@@ -360,78 +360,85 @@ body:has(.side-menu:checked) {
   margin-right: auto;
 }
 
+/*Servicios*/
 
+.timeline-container {
+    position: relative;
+    overflow: hidden;
+    max-height: 700px;
+     
 
-/*about*/
+}
+
+/* Bild ganz nach hinten */
+.serviciosImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    z-index: 0;
+     padding: 5em;
+}
+
+.stairs {
+    width: 80%;
+    height: auto;
+    display: block;
+  
+}
+
+/* weißer Schleier über dem Bild */
+.timeline-container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.45);
+    z-index: 1;
+}
+
+/* Timeline nach vorne */
 .timeline {
+    position: relative;
+    z-index: 2;
 
-  max-width: 900px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  padding: 1em;
+    max-width: 800px;
+    margin: 0 auto;
 
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    padding: 3em 1em;
 }
 
 .timeline-item {
-  display: flex;
-  flex-direction: column;
-  gap: .5rem;
-  width: min(100%, 700px);
-
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: min(100%, 700px);
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
+/* Treppe */
+.timeline-item:nth-child(1) {
+    margin-left: 0;
 }
 
-.content p {
-  font-size: 0.7em;
-  line-height: 1.5em;
+.timeline-item:nth-child(2) {
+    margin-left: 10%;
 }
 
-.content p,
-.content small,
-.timeline-item .year {
-  color: #666;
+.timeline-item:nth-child(3) {
+    margin-left: 20%;
 }
 
-.sectionAbout {
-  display: flex;
-  justify-content: center;
+.timeline-item:nth-child(4) {
+    margin-left: 30%;
 }
 
-.aboutParaguay {
-  display: flex;
-  flex-direction: column;
-
-  padding: 1em;
-  gap: 0.5em;
+.timeline-item:nth-child(5) {
+    margin-left: 40%;
 }
-
-.aboutParaguay h2 {
-  margin-bottom: 1em;
-}
-
-.wayToParaguay {
-  padding: 1em;
-  max-width: 800px;
-}
-
-.wayToParaguay p {
-  line-height: 1.8;
-  margin-bottom: 1rem;
-  color: #666;
-}
-
-.sapContainer {
-  display: flex;
-  gap: 0.1em;
-}
-
 
 /*references*/
 
@@ -488,10 +495,13 @@ body:has(.side-menu:checked) {
 }
 .HouseInside,
 .livingRoom,
-.windows {
+.windows,
+.LuisOnATree {
   width: 300px;
-
 }
+
+
+
 
 /*proposal*/
 .proposalAndContactSections {
@@ -898,6 +908,96 @@ body:has(.side-menu:checked) {
 
 }
 
+.timeline-container {
+    position: relative;
+    overflow: hidden;
+    max-height: 700px;
+
+}
+
+/* Bild ganz nach hinten */
+.serviciosImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    z-index: 0;
+}
+
+.stairs {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* weißer Schleier über dem Bild */
+.timeline-container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.45);
+    z-index: 1;
+}
+
+/* Timeline nach vorne */
+.timeline {
+    position: relative;
+    z-index: 2;
+
+    max-width: 900px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    padding: 3em 1em;
+}
+
+.timeline-item {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: min(100%, 700px);
+}
+
+/* Treppe */
+.timeline-item:nth-child(1) {
+    margin-left: 0;
+}
+
+.timeline-item:nth-child(2) {
+    margin-left: 10%;
+}
+
+.timeline-item:nth-child(3) {
+    margin-left: 20%;
+}
+
+.timeline-item:nth-child(4) {
+    margin-left: 30%;
+}
+
+.timeline-item:nth-child(5) {
+    margin-left: 40%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+
+   
+    padding: 1em 1.5em;
+}
+
+.content p {
+    font-size: 1.0em;
+    line-height: 1.5em;
+    color: #333;
+}
+
 
   .side {
     width: clamp(70px, 20vw, 180px);
@@ -913,34 +1013,9 @@ body:has(.side-menu:checked) {
 
 
 
-  /*about*/
-  .timeline-item {
-    display: grid;
-    grid-template-columns:1fr;
-    gap: 2rem;
-  }
 
-  .year {
-    text-align: right;
-    font-weight: 500;
-    padding-top: .2rem;
-  }
 
-  .content {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-  
-  }
-  .content h3{
-      text-transform: uppercase;
-    letter-spacing: 4px;
-  }
-  .content p{
-    font-size: 1em;
-  }
-
-  /*contakt*/
+  /*contact*/
   .proposalAndContactSections {
     display: flex;
     flex-direction: row;
