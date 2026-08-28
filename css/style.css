@@ -481,8 +481,14 @@ body:has(.side-menu:checked) {
   top: 44%;
 }
 
-.HouseInside {
-
+.projectosIndex{
+  display: flex;
+  flex-direction: column;
+  gap:2em;
+}
+.HouseInside,
+.livingRoom,
+.windows {
   width: 300px;
 
 }
@@ -878,7 +884,15 @@ body:has(.side-menu:checked) {
   right: 10%;
   top: 42%;
 }
-.HouseInside {
+
+.projectosIndex{
+  display: flex;
+  flex-direction: row;
+  gap: 2em
+}
+.HouseInside,
+.livingRoom,
+.windows {
 
   width: 400px;
 
