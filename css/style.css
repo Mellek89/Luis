@@ -366,27 +366,26 @@ body:has(.side-menu:checked) {
     position: relative;
     overflow: hidden;
     max-height: 700px;
+    background-color: #F5F5F5;
      
 
 }
 
 /* Bild ganz nach hinten */
-.serviciosImg {
+.servicios {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 800px;
+
     z-index: 0;
      padding: 5em;
 }
+.servicios img {
 
-.stairs {
-    width: 80%;
-    height: auto;
-    display: block;
-  
+width: 500px;
 }
+
 
 /* weißer Schleier über dem Bild */
 .timeline-container::before {
@@ -402,13 +401,13 @@ body:has(.side-menu:checked) {
     position: relative;
     z-index: 2;
 
-    max-width: 800px;
+    max-width: 500px;
     margin: 0 auto;
 
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-
+   
     padding: 3em 1em;
 }
 
@@ -912,17 +911,18 @@ body:has(.side-menu:checked) {
     position: relative;
     overflow: hidden;
     max-height: 700px;
-
+   background-color: #EEE8E873;
 }
 
 /* Bild ganz nach hinten */
-.serviciosImg {
+.servicios Img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 800px;
     z-index: 0;
+     background-color: #EEE8E873;
 }
 
 .stairs {
@@ -1024,6 +1024,7 @@ body:has(.side-menu:checked) {
     gap: 1rem;
     justify-content: center;
     align-items: center;
+
 
   }
 
