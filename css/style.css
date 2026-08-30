@@ -361,86 +361,10 @@ body:has(.side-menu:checked) {
 } 
 
 /*Servicios*/
-
-.timeline-container {
-    position: relative;
-    overflow: hidden;
-    max-height: 700px;
-    background-color: #F5F5F5;
-     
-
+.stairs{
+  margin: 50%;
+  width: 100%;
 }
-
-/* Bild ganz nach hinten */
-.servicios {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    z-index: 0;
-     padding: 5em;
-}
-.servicios img {
-
-width: 500px;
-}
-
-
-/* weißer Schleier über dem Bild */
-.timeline-container::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(255, 255, 255, 0.45);
-    z-index: 1;
-}
-
-/* Timeline nach vorne */
-.timeline {
-    position: relative;
-    z-index: 2;
-
-    max-width: 500px;
-    margin: 0 auto;
-
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-   
-    padding: 3em 1em;
-}
-
-.timeline-item {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-    width: min(100%, 700px);
-}
-
-/* Treppe */
-.timeline-item:nth-child(1) {
-    margin-left: 0;
-}
-
-.timeline-item:nth-child(2) {
-    margin-left: 10%;
-}
-
-.timeline-item:nth-child(3) {
-    margin-left: 20%;
-}
-
-.timeline-item:nth-child(4) {
-    margin-left: 30%;
-}
-
-.timeline-item:nth-child(5) {
-    margin-left: 40%;
-}
-
-/*references*/
-
 .sectionIndex {
   position: relative;
   width: 100%;
@@ -907,95 +831,39 @@ width: 500px;
 
 }
 
-.timeline-container {
-    position: relative;
-    overflow: hidden;
-    max-height: 700px;
-   background-color: #EEE8E873;
+
+
+.stairs{
+  width: 70%;
 }
 
-/* Bild ganz nach hinten */
-.servicios Img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 800px;
-    z-index: 0;
-     background-color: #EEE8E873;
-}
 
-.stairs {
-    width: 100%;
-    height: auto;
-    display: block;
-}
 
-/* weißer Schleier über dem Bild */
-.timeline-container::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(255, 255, 255, 0.45);
-    z-index: 1;
-}
 
-/* Timeline nach vorne */
-.timeline {
-    position: relative;
-    z-index: 2;
 
-    max-width: 900px;
-    margin: 0 auto;
 
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
 
-    padding: 3em 1em;
-}
 
-.timeline-item {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-    width: min(100%, 700px);
-}
 
 /* Treppe */
-.timeline-item:nth-child(1) {
-    margin-left: 0;
-}
-
-.timeline-item:nth-child(2) {
-    margin-left: 10%;
-}
-
-.timeline-item:nth-child(3) {
-    margin-left: 20%;
-}
-
-.timeline-item:nth-child(4) {
-    margin-left: 30%;
-}
-
-.timeline-item:nth-child(5) {
-    margin-left: 40%;
-}
 
 .content {
+   position: relative;
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-
-   
     padding: 1em 1.5em;
+    left: 20px;
 }
 
+
+
 .content p {
+  
     font-size: 1.0em;
     line-height: 1.5em;
     color: #333;
+  
 }
 
 
