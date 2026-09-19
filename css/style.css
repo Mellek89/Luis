@@ -96,10 +96,10 @@ body {
 
 h2 {
   /*color:  #cbcaca;*/
-  color: #666;
+  color:  #4A6FA5;
   font-size: 1em;
   font-weight: 400;
-  text-transform: uppercase;
+  
   letter-spacing: 0.2em;
   text-align: center;
   line-height: 1.5em;
@@ -137,7 +137,7 @@ h1 {
   text-align: center;
   letter-spacing: 4px;
   line-height: 1.8;
-  margin-bottom: 3rem;
+  
 }
 
 .hero .audience {
@@ -361,12 +361,27 @@ body:has(.side-menu:checked) {
 } 
 
 /*Servicios*/
+
 .stairs{
-  margin: 50%;
+  display: none;
+}
+.serviciosContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  align-items: center;
+  padding: 2em;
+
+
+}
+
+.stairs{
+  
   width: 100%;
 }
 .stairsMobil{
-  margin: 50%;
+  grid-row: 2;
+  
   width: 500px;
 }
 .sectionIndex {
@@ -835,9 +850,16 @@ body:has(.side-menu:checked) {
 
 }
 
+.serviciosContainer h2{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
 
-
+.stairsMobil{
+  display: none;
+}
 .stairs{
+  display: block;
   width: 70%;
 }
 
