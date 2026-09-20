@@ -855,10 +855,11 @@ body:has(.side-menu:checked) {
 }
 
 .stairsMobil{
-  display: none;
+  display: block;
+  width: 800px;
 }
 .stairs{
-  display: block;
+  display: none;
   width: 70%;
 }
 
