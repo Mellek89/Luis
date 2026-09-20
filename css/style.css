@@ -412,8 +412,53 @@ body:has(.side-menu:checked) {
     color:#333;
 }
 
+/*Contact*/
 
 
+.contact-section {
+  max-width: 200px;
+  max-height: 200px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: url("../Images/LuisOnATree.jpg") center/cover no-repeat;
+     margin: 0 auto; 
+}
+.contact-whatsapp,
+.contact-email {
+    display: flex;
+    align-items: center; /* vertikal zentrieren */
+    gap: 4px; /* Abstand zwischen Icon und Text */
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+height: 200px;
+
+}
+
+
+.contact-text {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    padding: 1rem;
+     
+}
+
+.contact-text p {
+    color: white;
+    font-size: clamp(1.0rem, 4vw, 1rem);
+    line-height: 1.5;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    margin-top:4rem;
+}
 .redStones,
 .LuisWithStones,
 .Asado {
@@ -465,83 +510,10 @@ body:has(.side-menu:checked) {
 
 
 
-/*proposal*/
-.proposalAndContactSections {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-
-}
-
-.serviceHeader h3 {
-  font-size: 18px;
-}
-
-.service-intro {
-  max-width: 700px;
-  margin: 20px auto 50px;
-  line-height: 1.6;
-}
-
-.serviceHeader,
-.contactHeader {
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
-}
-
-.serviceHeader h3,
-.contactHeader h3 {
-  font-size: 18px;
-}
-
-.contact-section {
-  max-width: 300px;
-  max-height: 300px;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  background: url("../Images/contactMe.jpg") center/cover no-repeat;
-  margin: 0 auto;
-}
-
-.contact-whatsapp,
-.contact-email {
-  display: flex;
-  align-items: center;
-  /* vertikal zentrieren */
-  gap: 4px;
-  /* Abstand zwischen Icon und Text */
-}
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 200px;
-
-}
 
 
-.contact-text {
-  position: relative;
-  z-index: 3;
-  text-align: center;
-  padding: 1rem;
 
-}
 
-.contact-text p {
-  color: white;
-  font-size: clamp(1.0rem, 4vw, 1rem);
-  line-height: 1.5;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-  margin-top: 4rem;
-}
 
 .contact-section,
 .proposal-section {
@@ -549,9 +521,6 @@ body:has(.side-menu:checked) {
   gap: 1em;
 }
 
-.contactMe {
-  margin-bottom: 2rem;
-}
 
 
 .svgEmail,
