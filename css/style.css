@@ -97,7 +97,7 @@ body {
 h2 {
   /*color:  #cbcaca;*/
   color:  #4A6FA5;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 400;
   
   letter-spacing: 0.2em;
@@ -368,9 +368,6 @@ body:has(.side-menu:checked) {
   flex-direction: column;
   gap: 3em;
   align-items: center;
-  padding: 2em;
-
-
 }
 
 
@@ -386,6 +383,37 @@ body:has(.side-menu:checked) {
   aspect-ratio: 1000/700;
   margin-bottom: 3rem;
 }
+
+
+.serviceItemContainer{
+
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.service-item{
+    padding:18px 0;
+    border-bottom:1px solid rgba(0,0,0,0.08);
+    flex-wrap: wrap;
+}
+
+.service-item:last-child
+{
+    border-bottom:none;
+}
+
+.service-item h3{
+    margin:0;
+    font-size:14px;
+}
+
+.service-item p{
+    margin:6px 0 0;
+    line-height:1.5;
+    font-size:14.5px;
+    color:#333;
+}
+
 
 
 .redStones,
@@ -535,53 +563,7 @@ body:has(.side-menu:checked) {
   gap: 1.5em;
 }
 
-.service-list {
-  margin-top: 40px;
-}
 
-.service-item,
-.skill-item {
-  padding: 18px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-  flex-wrap: wrap;
-}
-
-.service-item:last-child,
-.skill-item:last-child {
-  border-bottom: none;
-}
-
-.service-item h3 {
-  margin: 0;
-  font-size: 16px;
-}
-
-.service-item p {
-  margin: 6px 0 0;
-  line-height: 1.5;
-  font-size: 14.5px;
-  color: #333;
-}
-
-.service-item svg,
-.skill-item svg {
-  width: 60px;
-  height: 60px;
-}
-
-.skill-item {
-  width: 300px;
-  display: flex;
-  flex-direction: row;
-  gap: 2em;
-}
-
-.codingItem {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5em;
-}
 
 .codingItem span {
   font-size: 12px;
@@ -851,7 +833,7 @@ body:has(.side-menu:checked) {
 
 .stairsMobil{
   
-  width: 800px;
+  width: 670px;
 }
 
 
