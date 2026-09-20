@@ -362,9 +362,7 @@ body:has(.side-menu:checked) {
 
 /*Servicios*/
 
-.stairs{
-  display: none;
-}
+
 .serviciosContainer{
   display: flex;
   flex-direction: column;
@@ -375,10 +373,7 @@ body:has(.side-menu:checked) {
 
 }
 
-.stairs{
-  
-  width: 100%;
-}
+
 .stairsMobil{
   grid-row: 2;
   width: 350px;
@@ -855,13 +850,10 @@ body:has(.side-menu:checked) {
 }
 
 .stairsMobil{
-  display: block;
+  
   width: 800px;
 }
-.stairs{
-  display: none;
-  width: 70%;
-}
+
 
 
 
