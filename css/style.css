@@ -373,7 +373,7 @@ body:has(.side-menu:checked) {
 
 .stairsMobil{
   grid-row: 2;
-  width: 350px;
+  width: 310px;
 }
 .sectionIndex {
   position: relative;
